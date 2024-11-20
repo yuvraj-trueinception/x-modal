@@ -15,6 +15,7 @@ function App() {
   return (
     <div className='app'>
       <h1 className='heading'>User Details Modal</h1>
+      <p>this model is show user details </p>
       <button className='open-btn' onClick={handleOpenForm}>Open Form</button>  
       {isOpen && <Modal onClose={closeModal} /> } 
     </div>
